@@ -1,0 +1,72 @@
+/* استایل‌های عمومی */
+.chat-rooms-list {
+    margin: 20px 0;
+}
+
+.chat-rooms-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.chat-rooms-list li {
+    margin: 10px 0;
+}
+
+.chat-rooms-list a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.chat-rooms-list a:hover {
+    text-decoration: underline;
+}
+
+/* استایل‌های چت روم */
+.multi-room-chat {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.chat-messages {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.chat-editor {
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.send-message {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-message:hover {
+    background-color: #005177;
+}
+
+.user-link {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.user-link:hover {
+    text-decoration: underline;
+}
